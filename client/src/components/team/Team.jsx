@@ -1,11 +1,19 @@
 import React from 'react'
+import TeamCard from './TeamCard';
+
+
 
 export default function Team() {
     return (
-        <section id="team" className='w-full h-full border bg-white'>
-            <section className='w-full h-full'>
-                Team Section
-            </section>
-        </section>
-    )
+      <section
+        id="teamSection"
+        className="w-full border bg-white p-6 flex flex-col gap-12 rounded-lg ">
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+      </section>
+    );
 }
