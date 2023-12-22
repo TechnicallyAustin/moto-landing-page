@@ -7,12 +7,12 @@ export default function Layout({ children }) {
     const title = children.type.name
 
 
+
   return (
     <section id={cName} className="w-full min-h-full flex flex-col p-3 gap-6">
       <header className="w-full h-1/5 flex flex-col gap-3 justify-start items-center bg-white relative z-40">
         {title == "About" && (
           <header className="w-full h-1/5 flex flex-col gap-3 justify-start items-center bg-white relative z-40">
-
                     <h2 className="relative z-40 w-full h-auto text-3xl flex items-center">{title}</h2>
                     <div className="w-full h-1  z-30 bg-danger"></div>
                     <p className="relative z-40 w-full h-auto text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">Mobile Motorcycle services dedicated to keeping Motorcylists on their bikes and out of the Shop.</p>
