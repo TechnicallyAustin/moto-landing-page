@@ -36,7 +36,7 @@ export default function Layout({ children }) {
       id={title.toLowerCase()}
       className="w-full min-h-full flex flex-col p-3 gap-6"
     >
-      <header className="w-full h-1/5 flex flex-col gap-3 justify-start items-center bg-white relative z-40">
+      <header className="w-full h-auto flex flex-col gap-3 justify-start items-center bg-white relative z-40">
         <h2 className="relative z-40 w-full h-auto text-3xl flex items-center">
           {headerTitle}
         </h2>
