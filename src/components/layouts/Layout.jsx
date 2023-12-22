@@ -41,9 +41,9 @@ export default function Layout({ children }) {
           {headerTitle}
         </h2>
         <div className="w-full h-1 bg-danger"></div>
-        <p className="relative z-40 w-full h-auto text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">
+        <h3 className="relative z-40 w-full h-auto text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">
           {headerDescription}
-        </p>
+        </h3>
       </header>
       {children}
     </section>
