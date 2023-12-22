@@ -3,7 +3,7 @@ import React from "react";
 export default function GithubIcon() {
   return (
     <svg
-      className="bg-text-color w-8 h-8"
+      className="bg-text-color w-6 h-6"
       width="100%"
       height="100%"
       viewBox="0 0 512 512"

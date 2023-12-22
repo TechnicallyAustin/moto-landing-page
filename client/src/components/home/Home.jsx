@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <section id="home" className='relative top-0 w-full h-full flex flex-col text-white'>
             <figure id="" className='w-full h-full p-3 border flex flex-col'>
-                <figcaption className=' relative z-20 top-40 w-full h-auto flex flex-col gap-3'>
+                <figcaption className=' relative z-20 top-1/3 w-full h-auto flex flex-col gap-3'>
                     <h1 className='w-full h-full text-4xl shadow shadow-xl'>Mobile Motorcycle Services</h1>
                     <p className='w-full h-full text-xl shadow shadow-md'>Help Where you need it, When you need it.</p>
                     <article className='relative top-1/4 w-full h-full flex justify-center items-center gap-3'>

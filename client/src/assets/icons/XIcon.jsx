@@ -4,7 +4,7 @@ export default function XIcon() {
   return (
     <>
       <svg
-      className='w-8 h-8 bg-black p-1 rounded-full'
+      className='w-6 h-6 bg-black p-1 rounded-full'
         width="100%"
         height="100%"
         viewBox="0 0 1200 1227"

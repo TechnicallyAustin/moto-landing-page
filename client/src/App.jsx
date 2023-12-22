@@ -15,7 +15,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div id="app" className='w-full h-full flex flex-wrap' >
+    <div id="app" className='w-full h-full flex flex-wrap  gap-6' >
       <Header />
         <Home />
         <Layout><About /></Layout>

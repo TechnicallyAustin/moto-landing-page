@@ -7,6 +7,7 @@ export default {
       "page-gray": "#C6C6C6",
       "text-color": "#FFFFFF",
       "page-blue": "#0649AC",
+      "off-white": "#fbf7f5",
       black: "#000000",
       white: "#FFFFFF",
       primary: "#91897f",
