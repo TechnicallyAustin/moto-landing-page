@@ -2,7 +2,7 @@ import React from 'react'
 import Towing from '../../../public/images/moto-tow.jpeg'
 export default function ServiceCard() {
     return (
-            <section id="servicesCard" className='w-full h-full bg-white shadow-lg border-danger shadow-danger flex flex-col p-1 gap-2 rounded-lg'>
+            <section id="servicesCard" className='w-full h-full bg-white shadow-lg border-danger shadow-danger flex flex-col p-3 gap-2 rounded-lg'>
                         <figure className='w-full h-4/6 flex gap-3 justify-center items-center rounded-lg'>
                             <img id="" alt="service graphic" src={Towing} className='w-1/3 h-5/6 rounded-full bg-white object-cover aspect-square' />
                             <figcaption className='w-4/6 h-5/6 bg-white rounded-lg flex flex-col justify-center'>
