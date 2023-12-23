@@ -25,13 +25,7 @@ export default function Layout({ children }) {
   
   const title = children.type.name;
   const key =  headerStyles[title.toLowerCase()] || {};
-  const description = () => {
-    if (key["description"]){
-      console.log("title", title, "description", key["description"])
-      return key["description"]
-    }
-  }
-
+  const description = key["description"] || "";
   return (
     <section
       id={title.toLowerCase()}
@@ -40,7 +34,7 @@ export default function Layout({ children }) {
       <header className="w-full h-auto flex flex-col gap-3 justify-start items-center bg-white relative z-40">
         <h2 className="relative z-40 w-full h-auto text-3xl flex items-center">{title}</h2>
         <div className="w-full h-1 bg-danger"></div>
-        <h3 className="relative z-40 w-full h-2/3 text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{description()}</h3>
+        <h3 className="relative z-40 w-full h-2/3 text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{description}</h3>
       </header>
       {children}
     </section>
