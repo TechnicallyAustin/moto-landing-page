@@ -26,6 +26,7 @@ export default function Layout({ children }) {
   const title = children.type.name;
   const key =  headerStyles[title.toLowerCase()] || {};
   const description = key["description"] || "";
+  
   return (
     <section
       id={title.toLowerCase()}
