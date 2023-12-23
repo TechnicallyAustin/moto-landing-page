@@ -24,19 +24,20 @@ export default function Layout({ children }) {
   };
   
   const title = children.type.name;
-  const key =  headerStyles[title.toLowerCase()] || {};
-  const description = key["description"] || "";
-  console.log("")
+  const label = children.type.name.toLowerCase() || ""
+  console.log(label)
+
+
 
   return (
     <section
-      id={key}
+      id={label}
       className="w-full min-h-full flex flex-col p-3 gap-6"
     >
       <header className="w-full h-auto flex flex-col gap-3 justify-start items-center bg-white relative z-40">
-        <h2 className="relative z-40 w-full h-auto text-3xl flex items-center">{key}</h2>
-        <div className="w-full h-1 bg-danger"></div>
-        <h3 className="relative z-40 w-full h-2/3 text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{key["description"]}</h3>
+        <h2 className="relative z-40 w-full h-auto text-3xl flex items-center">{title}</h2>
+        <div className="relative z-40 w-full h-1 bg-danger"></div>
+        <p className="relative z-40 w-full h-2/3 text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{headerStyles[label]["description"]}</p>
       </header>
       {children}
     </section>
