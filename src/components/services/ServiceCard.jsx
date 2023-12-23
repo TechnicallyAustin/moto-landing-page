@@ -1,5 +1,5 @@
 import React from 'react'
-import Towing from '../../assets/images/moto-tow.jpeg'
+import Towing from '../../../public/images/moto-tow.jpeg'
 export default function ServiceCard() {
     return (
             <section id="servicesCard" className='w-full h-full bg-white shadow-lg border-danger shadow-danger flex flex-col p-1 gap-2 rounded-lg'>

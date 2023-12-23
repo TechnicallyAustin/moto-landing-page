@@ -1,5 +1,5 @@
 import React from 'react'
-import EngineImage from "../../assets/images/engine.jpeg";
+import EngineImage from "../../../public/images/engine.jpeg"
 
 export default function ContactForm() {
     return (
