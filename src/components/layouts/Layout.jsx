@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 
   const key =  headerStyles[title.toLowerCase()] || {};
   const description = key["description"]
-  console.log(description)
+  console.log(title, description)
 
   return (
     <section
@@ -38,7 +38,7 @@ export default function Layout({ children }) {
           {title}
         </h2>
         <div className="w-full h-1 bg-danger"></div>
-        <h3 className="relative z-40 w-full h-auto text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{description}</h3>
+        <h3 className="relative z-40 w-full h-2/3 text-md shadow-xl p-3 bg-danger text-off-white rounded-lg shadow-md">{description}</h3>
       </header>
       {children}
     </section>
